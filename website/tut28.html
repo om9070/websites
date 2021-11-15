@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=0, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .max{
+        margin: auto;
+        height: 600px;
+        width: 80%;
+        border: 2px solid violet;
+        display: flex;
+
+        flex-direction: row;
+        flex-wrap: wrap; 
+        /* flex-flow: row-reverse warp; */
+        /* justify-content: space-around; */
+        /* align-items: center; */
+        /* flex-direction: column; */
+    }
+.item{
+    height: 80px;
+    width: 83px;
+    border: 2px solid red;
+    margin: 10px;
+    padding: 10px;
+}
+/* #item1{ */
+    /* order: 2;
+    flex-grow: 3;
+    flex-shrink: 2; */
+/* } */
+/* #item2{ */
+    /* flex-grow: 3; 
+    flex-shrink: 3;
+    flex-basis: 100px;
+} */
+/* #item3{ */
+    /* flex: 2 2 150px; */
+    /* align-self: center; */
+ /* } */
+</style>
+</head>
+<body>
+ <div class="max">
+    <div class="item" id="item1">1</div>
+    <div class="item" id="item2">2</div>
+    <div class="item" id="item3">3</div>
+    <div class="item" id="item4">4</div>
+    <div class="item" id="item5">5</div>
+    <div class="item" id="item6">6</div>
+</div>
+</body>
+</html>

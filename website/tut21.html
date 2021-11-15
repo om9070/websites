@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alignment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+         body{
+                
+            font-family:'Rowdies', cursive;
+        }
+        .container{
+            width: 800px;
+            background-color: salmon;
+            border: 3px solid purple;
+            margin: auto;/*its use for center text*/
+        }
+        .item{
+            border:3px solid green;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: greenyellow;
+        }
+        #fruit{
+            float:left;
+            width: 49%;
+        }
+        #computer{
+            float:left;
+            width: 47%;
+        }
+        #stationary{
+            /* float:left; */
+            clear:left;
+            width: 100%;
+        }
+        p, h1{
+            /* text-align: left;/*its is use for text align*/
+            /* text-align: right;
+            text-align: center; */ 
+            text-align: justify;
+
+        }
+        h2{
+            margin: auto;/*it use to h2 comment for center*/
+    width: 255px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h2>welcome to my site</h2>
+        <div id="fruit" class="item">
+            <h3>fruit</h3>
+          <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cum enim, ab illum obcaecati fuga. Suscipit ab fugiat labore corrupti. Praesentium nobis perferendis nulla cumque natus excepturi fugit voluptates quasi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem nihil provident, dicta ab libero impedit? Accusamus voluptates consequatur quibusdam quas soluta doloribus debitis necessitatibus, modi quod sint obcaecati delectus maxime quisquam? Architecto, eligendi sunt.</p>  
+        </div>
+        <div id="computer" class="item">
+            <h3>computer</h3>
+          <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sapiente, quibusdam consectetur quas pariatur vitae aperiam iste blanditiis ipsum saepe, neque inventore non sed consequuntur! Eveniet tempora placeat culpa eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto id sequi dicta fugit assumenda atque eum explicabo voluptates. Nam nulla nobis doloremque nesciunt, magnam tempora natus quibusdam quo inventore nostrum cupiditate, itaque a? Laborum!</p>  
+        </div>
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+          <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, exercitationem molestias modi aliquam fuga laudantium unde at recusandae eligendi, rem, nulla dolor esse doloremque ullam sapiente consectetur saepe adipisci nostrum?</p>  
+        </div>
+    </div>
+</body>
+</html>

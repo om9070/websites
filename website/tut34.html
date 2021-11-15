@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box shadow and text shado</title>
+</head>
+<style>
+    .container{
+        display: flex;
+    }
+    .card{
+        padding: 23px 12px;
+        margin: 23px 15px;
+        /* border: 2px solid red; */
+        background-color: burlywood;
+
+
+        /* box-shadow: offset-x offset-y color; */
+        /* box-shadow: offset-x offset-y blur-radius color; */
+
+
+        /* box-shadow: 10px 20px greenyellow; */
+        /* box-shadow: -10px -20px greenyellow; */
+        /* box-shadow: 7px 5px 10px greenyellow; */
+        /* box-shadow: -7px -5px 10px greenyellow; */
+        /* box-shadow: 7px 5px 10px 25px greenyellow; */
+        /* box-shadow: 7px 5px 10px 25px rgb(117, 133, 94,0.5); */
+
+
+        box-shadow: inset 5px 8px greenyellow;
+        box-shadow: inset 5px 8px greenyellow, 4px 8px red
+    }
+    .card h2{
+        /* text-shadow: 3px 4px red; */
+        /* text-shadow: 3px 2px 5px rgba(36, 221, 107, 0.61); */
+        text-shadow: -3px -2px 5px rgba(36, 221, 107, 0.61);
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="card" id="card11">
+            <h2>card1</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem minima aspernatur suscipit labore unde perferendis ad eum debitis totam. Pariatur itaque hic modi amet tenetur corporis quia voluptatem dolore possimus.</p>
+        </div>
+        <div class="card" id="card12">
+            <h2>card2</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem minima aspernatur suscipit labore unde perferendis ad eum debitis totam. Pariatur itaque hic modi amet tenetur corporis quia voluptatem dolore possimus.</p>
+        </div>
+        <div class="card" id="card13">
+            <h2>card3</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem minima aspernatur suscipit labore unde perferendis ad eum debitis totam. Pariatur itaque hic modi amet tenetur corporis quia voluptatem dolore possimus.</p>
+        </div>
+    </div> 
+</body>
+</html>

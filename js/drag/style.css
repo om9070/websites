@@ -1,0 +1,36 @@
+body {
+    background: darkblue;
+}
+
+.imgbox {
+    background-image: url(download\ \(3\).jpg);
+    position: relative;
+    bottom: 5px;
+    height: 210px;
+    width: 218px;
+    border-radius: 10px;
+    margin: 10px 12px;
+    cursor: pointer;
+}
+
+.whitebox {
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    margin: 10px 10px;
+    padding: 10px 15px;
+    background-color: darkred;
+}
+
+.hold {
+    border: 2px solid red;
+}
+
+.dashed {
+    background-color: grey;
+    border-style: dashed;
+}
+
+.hide {
+    display: none;
+}
